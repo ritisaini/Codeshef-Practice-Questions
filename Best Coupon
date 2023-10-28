@@ -1,0 +1,16 @@
+import java.util.*;
+public class BestCoupon {
+   public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int X = sc.nextInt();
+      int A = X/10;
+      if(X > 1000){
+        System.out.println(A);  
+      } else if(X == 1000 || X < 1000){
+        System.out.println(100);  
+      }
+    }
+  }
+}
