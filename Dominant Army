@@ -1,0 +1,20 @@
+import java.util.*;
+public class DominantArmy {
+   public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int Na = sc.nextInt();
+      int Nb = sc.nextInt();
+      int Nc = sc.nextInt();
+      int A = Na+Nb;
+      int B = Nb+Nc;
+      int C = Na+Nc;
+      if(Na > B || Nb > C || Nc > A){
+        System.out.println("YES");          
+      } else {
+        System.out.println("NO");  
+      }
+    }
+  }
+}
