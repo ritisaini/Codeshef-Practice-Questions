@@ -1,0 +1,21 @@
+import java.util.*;
+public class BucketWaterflow {
+   public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int W = sc.nextInt();
+      int X = sc.nextInt();
+      int Y = sc.nextInt();
+      int Z = sc.nextInt();
+      int A = W+Y*Z;
+      if(A > X){
+        System.out.println("Overflow");
+      } else if(A == X){
+        System.out.println("Filled");  
+      } else {
+        System.out.println("Unfilled");  
+      }
+    }
+  }
+}
