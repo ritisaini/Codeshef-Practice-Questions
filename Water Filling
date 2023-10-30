@@ -1,0 +1,17 @@
+import java.util.*;
+public class WaterFilling {
+   public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int B1 = sc.nextInt();
+      int B2 = sc.nextInt();
+      int B3 = sc.nextInt();
+      if((B1+B2+B3)<2){
+        System.out.println("Water filling time");  
+      } else {
+        System.out.println("Not now");  
+      }
+    }
+   }
+}
