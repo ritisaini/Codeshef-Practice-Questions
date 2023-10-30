@@ -1,0 +1,13 @@
+import java.util.*;
+public class CreditCoins {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+        int X = sc.nextInt();
+        int Y = sc.nextInt();
+        int A = X*Y;
+         System.out.println(A/100);
+        }
+    }
+}
