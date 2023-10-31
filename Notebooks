@@ -1,0 +1,13 @@
+import java.util.*;
+public class CountNotebook {
+  public static void main(String args[]){   
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int N = sc.nextInt();
+      int A = N*1000;
+      int B = A/100;
+      System.out.println(B);
+    }
+  }
+}
