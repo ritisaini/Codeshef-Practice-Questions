@@ -1,0 +1,23 @@
+/* Vasya likes the number 239. Therefore, he considers a number pretty if its last digit is 
+2,3 or 9.Vasya wants to watch the numbers between L and R (both inclusive),
+ so he asked you to determine how many pretty numbers are in this range. Can you help him?
+ */
+import java.util.*;
+public class Count_Pretty_num {
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+       int t = sc.nextInt();
+       while(t-->0){
+         int L = sc.nextInt();
+         int R = sc.nextInt();
+         int count = 0;
+         for(int i=L; i<=R; i++){
+            int a = i%10;
+            if(a == 2 || a == 3 || a == 9){
+                count++;
+            }
+         }
+         System.out.println(count);
+       }  
+    }
+}
