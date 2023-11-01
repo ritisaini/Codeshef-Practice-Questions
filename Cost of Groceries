@@ -1,0 +1,25 @@
+// Chef has decided to purchase all the items having a freshness value greater than equal to X
+// Find the total cost of the groceries Chef buys.
+import java.util.*;
+public class CostofGroceries {
+    public static void main(String args[]){
+       Scanner sc = new Scanner(System.in);
+       int N = sc.nextInt();
+       int X = sc.nextInt();
+       int A[] = new int[N];
+       int B[] = new int[N];
+       int TotalCost = 0;
+       for(int i=0; i<N; i++){
+         A[i] = sc.nextInt();
+       }
+       for(int i=0; i<N; i++){
+        B[i] = sc.nextInt();
+       }
+       for(int i=0; i<N; i++){
+         if(A[i] >= X){
+            TotalCost += B[i];
+         }
+       }
+       System.out.println(TotalCost);
+    }
+}
