@@ -1,0 +1,22 @@
+import java.util.*;
+public class ChefDrinksTea {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int X = sc.nextInt();
+          int Y = sc.nextInt();
+          int Z = sc.nextInt();
+          int a = X/Y;
+          if(Y>=X){
+            System.out.println(Z);  
+          } else {
+            if(X%Y == 0){    
+              System.out.println(a*Z);  
+            } else {
+              System.out.println(Z*(X/Y+1));    
+            }
+        }
+        }
+    }
+}
