@@ -1,0 +1,14 @@
+import java.util.*;
+public class Coins {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int X = sc.nextInt();
+          int Y = sc.nextInt();
+          int a = 10*X;
+          int b = 5*Y;
+          System.out.println(a+b);
+        }
+    }    
+}
