@@ -1,0 +1,15 @@
+import java.util.*;
+public class MangoTruck {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int X = sc.nextInt();
+          int Y = sc.nextInt();
+          int Z = sc.nextInt();
+          int a = Z-Y;
+          int b = a/X;
+          System.out.println(b);
+        }
+    }
+}
