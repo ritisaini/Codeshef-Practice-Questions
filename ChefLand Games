@@ -1,0 +1,18 @@
+import java.util.*;
+public class CheflandGames {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int R1 = sc.nextInt();
+          int R2 = sc.nextInt();
+          int R3 = sc.nextInt();
+          int R4 = sc.nextInt();
+          if(R1==0 && R2==0 && R3==0 && R4==0){
+              System.out.println("IN");
+          } else {
+              System.out.println("OUT");
+          } 
+        }
+    }
+}
