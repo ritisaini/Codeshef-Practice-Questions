@@ -1,0 +1,16 @@
+import java.util.*;
+public class PoliceANDthief {
+  public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int X = sc.nextInt();
+      int Y = sc.nextInt();
+      if(X>Y){
+        System.out.println(X-Y);
+      } else {
+        System.out.println(Y-X);  
+      }
+    }
+  }
+}
