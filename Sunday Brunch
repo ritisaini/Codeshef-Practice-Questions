@@ -1,0 +1,17 @@
+import java.util.*;
+public class SundayBrunch {
+    public static void main(String args[]){
+            Scanner sc = new Scanner(System.in);
+            int t = sc.nextInt();
+            while(t-->0){
+              int X = sc.nextInt();
+              int Y = sc.nextInt();
+              int Z = X/Y;
+              if(Z>=20){
+                System.out.println("20");
+              } else {
+                System.out.println(Z);  
+              }
+            }
+    }
+}
