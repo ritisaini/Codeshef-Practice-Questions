@@ -1,0 +1,30 @@
+public class DetermineWinner {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int Pa = sc.nextInt();
+          int Pb = sc.nextInt();
+          int Qa = sc.nextInt();
+          int Qb = sc.nextInt();
+          int count1 = 0, count2 = 0;
+          if(Pa<Pb){
+            count1 = Pb;   
+          } else {
+            count1 = Pa;      
+          }
+          if(Qa<Qb){
+            count2 = Qb;   
+          } else {
+            count2 = Qa;      
+          }
+          if(count1<count2){
+            System.out.println("P");  
+          } else if(count1==count2){
+            System.out.println("TIE");   
+          } else {
+            System.out.println("Q");   
+          }
+        }
+    }
+}
