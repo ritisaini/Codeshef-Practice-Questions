@@ -1,0 +1,12 @@
+import java.util.*;
+public class SugarcaneBussiness {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int N = sc.nextInt();
+          int A = N*50;
+          System.out.println((int)(A*0.3));
+        }
+    }
+}
