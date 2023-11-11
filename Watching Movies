@@ -1,0 +1,10 @@
+public class WatchingMovies {
+    public static void main(String args[]){ 
+      Scanner sc = new Scanner(System.in);
+      int X = sc.nextInt();
+      int Y = sc.nextInt();
+       int A = Y/2;
+       int B = X-Y;
+       System.out.println(A+B);
+    }
+  }
