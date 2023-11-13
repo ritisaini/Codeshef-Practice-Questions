@@ -1,0 +1,24 @@
+import java.util.*;
+public class ChangeRowColumn{
+  public static void main(String args[]){  
+ Scanner hu = new Scanner(System.in);
+		int yu = hu.nextInt();
+		for(int i = 0;i<yu;i++){
+		    int a = hu.nextInt();
+		    int b = hu.nextInt();
+		    int c = hu.nextInt();
+		    int iu = b*c;
+		    if(iu>=a){
+		        System.out.println(1);
+		    }
+		    else if(a%iu == 0){
+		        System.out.println(a/iu);
+		    }
+		    else{
+		        int uj = a/iu;
+		        uj = uj+1;
+		        System.out.println(uj);
+		    }
+		}
+    }
+}
