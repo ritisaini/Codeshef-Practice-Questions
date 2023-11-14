@@ -1,0 +1,17 @@
+public class BlackJack {
+   public static void main(String args[]){
+      Scanner sc = new Scanner(System.in);
+      int t = sc.nextInt();
+      while(t-->0){
+      int A = sc.nextInt();
+      int B = sc.nextInt();
+      int C = A+B;
+      int D = 21-C;
+      if(D>=1 && D<=10){
+        System.out.println(D);  
+      } else {
+        System.out.println(-1);    
+      }
+    }
+  }    
+}
