@@ -1,0 +1,15 @@
+public class ItsMyServe {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int P = sc.nextInt();
+          int Q = sc.nextInt();
+          if((P+Q)%4==0 || (P+Q)%4==1){
+            System.out.println("Alice");  
+          } else {
+            System.out.println("Bob");    
+          }
+        }
+    }
+}
