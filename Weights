@@ -1,0 +1,22 @@
+public class Weights {
+  public static void main(String args[]){   
+    Scanner sca=new Scanner(System.in);
+		int t=sca.nextInt();
+		while(t-->0){
+		 
+		   int w=sca.nextInt();
+		   int x=sca.nextInt();
+		   int y=sca.nextInt();
+		   int z=sca.nextInt();
+		   
+		    if(w==(x+y)||w==(y+z)||w==(z+x)||w==x||w==y||w==z||w==x+y+z)
+		    {
+		        System.out.println("YES");
+		    }
+		    else
+		    {
+		        System.out.println("NO");
+		    }
+		  }
+    }
+}
