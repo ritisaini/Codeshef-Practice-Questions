@@ -1,0 +1,16 @@
+public class ChessBoardDistance {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt();
+        while(t-->0){
+          int X1 = sc.nextInt();
+          int Y1 = sc.nextInt();
+          int X2 = sc.nextInt();
+          int Y2 = sc.nextInt();
+          int A = Math.abs(X1-X2);
+          int B = Math.abs(Y1-Y2);
+          int C = Math.max(A,B);
+          System.out.println(C);
+        }
+    }
+}
