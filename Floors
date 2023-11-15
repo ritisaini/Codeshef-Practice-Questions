@@ -1,0 +1,13 @@
+public class Floors {
+  public static void main(String args[]){ 
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+     while(t-->0){
+      int x = sc.nextInt();
+      int y = sc.nextInt();
+      int m = (((x-1)/10)+1);
+	  int n = (((y-1)/10)+1);
+	  System.out.println(Math.abs(m-n));
+	}
+  }
+}
