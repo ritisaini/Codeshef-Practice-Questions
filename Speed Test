@@ -1,0 +1,21 @@
+public class SpeedTest {
+  public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+     while(t-->0){
+      int A = sc.nextInt();
+      int X = sc.nextInt();
+	  int B = sc.nextInt();
+      int Y = sc.nextInt();
+    	double a = (double)A/X;
+    	double b = (double)B/Y;
+    	if(a>b){
+    	  System.out.println("Alice");  
+    	} else if(a==b){
+    	  System.out.println("Equal");    
+    	} else {
+    	  System.out.println("Bob");    
+    	}
+     }
+   }
+}
