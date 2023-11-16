@@ -1,0 +1,15 @@
+public class SellingInsurance {
+    public static void main(String args[]){  
+    Scanner s = new Scanner(System.in);
+    int t = s.nextInt();
+    while(t-- > 0){
+        int X = s.nextInt();
+        
+        double a = X * 0.2;
+        double ans = 100 / a;
+        
+        System.out.println((int)Math.ceil(ans));
+        
+    }
+}
+}
