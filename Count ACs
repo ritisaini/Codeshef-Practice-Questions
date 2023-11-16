@@ -1,0 +1,22 @@
+public class CountACs {
+    public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    for(int i=0;i<t;i++){
+        int P = sc.nextInt();
+        if(P<100&&P>10){
+            System.out.println("-1");
+        }
+        else{
+            int a = P/100;
+            int b = P%100;
+            if(a+b<=10){
+                System.out.println(a+b);
+            }
+            else{
+                System.out.println("-1");
+            }
+        }
+    }
+}
+}
