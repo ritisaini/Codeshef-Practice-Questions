@@ -1,0 +1,17 @@
+public class AorB {
+  public static void main(String args[]){ 
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int x = sc.nextInt();
+      int y = sc.nextInt();
+      int k = (500-(2*x)) + (1000-(4*(x+y)));
+	  int l = (500-(2*(x+y))) + (1000-(4*y));
+	  if(k>=l){
+		 System.out.println(k);
+	  }else{
+		 System.out.println(l);
+	  }
+    }
+  }
+}
