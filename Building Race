@@ -1,0 +1,21 @@
+public class BuildingRace {
+  public static void main(String args[]){ 
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int A = sc.nextInt();
+      int B = sc.nextInt();
+      int X = sc.nextInt();
+      int Y = sc.nextInt();
+      double d = (double)A/X;
+      double e = (double)B/Y;
+      if(d<e){
+        System.out.println("Chef");      
+      } else if(d>e){
+        System.out.println("Chefina");    
+      } else {
+        System.out.println("Both");    
+      }
+    }
+  }
+}
