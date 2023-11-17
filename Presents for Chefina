@@ -1,0 +1,13 @@
+public class Presents {
+    public static void main(String args[]){
+        Scanner scn = new Scanner(System.in);
+		int t = scn.nextInt();
+		 while(t-->0){
+		     int n = scn.nextInt();
+		     
+		      int m = n/5;
+		      int o = n%5;
+		      System.out.println(o+m*4); 
+		 }
+    }
+}
