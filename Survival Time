@@ -1,0 +1,14 @@
+public class SurvivalTime {
+  public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+    int N = sc.nextInt();
+	int X = sc.nextInt();
+	int D = sc.nextInt();
+    int a = 5*X;
+    int b = N/a;
+    System.out.println(b+D);
+	}
+  }
+}
