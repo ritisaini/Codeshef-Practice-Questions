@@ -1,0 +1,17 @@
+public class Victory {
+    public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int R = sc.nextInt();
+    int O = sc.nextInt();
+    int C = sc.nextInt();
+    int a = 20-O;
+    int b = a*6;
+    int c = b*6;
+    int d = C+c;
+    if(d>R){
+      System.out.println("YES");  
+    } else {
+      System.out.println("NO");   
+    }
+}
+}
