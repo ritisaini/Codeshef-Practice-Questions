@@ -1,0 +1,16 @@
+public class DraculaEats {
+    public static void main(String args[]){  
+    Scanner sc = new Scanner(System.in);
+    int t = sc.nextInt();
+    while(t-->0){
+      int N = sc.nextInt();
+      if(N<=1){
+        System.out.println("0");  
+      } else if(N%7<2){
+        System.out.println(N/7);    
+      } else {
+        System.out.println((N/7)+1);    
+      }
+    }
+}
+}
